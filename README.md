@@ -2,10 +2,10 @@
 
 a game
 
-how to run:
-install python
-in command prompt
-pip install sys
-pip install pygame
+how to run:\n
+install python\n
+in command prompt\n
+pip install sys\n
+pip install pygame\n
 
-doubleclick notminecraft.py
+doubleclick notminecraft.py\n
