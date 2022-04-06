@@ -11,7 +11,7 @@ def snap(x, base=300):
 
 screen = pygame.display.set_mode(size) # makes window
 ''' list for the blocks '''
-blocks = [pygame.image.load(r"C:\Users\Winston\Pictures\trueiso\acacia_planks.png"),pygame.image.load(r"C:\Users\Winston\Pictures\trueiso\cobblestone.png"), pygame.image.load(r"C:\Users\Winston\Pictures\trueiso\basalt.png")]
+blocks = [pygame.image.load(r".\trueiso\acacia_planks.png"),pygame.image.load(r".\trueiso\cobblestone.png"), pygame.image.load(r".\trueiso\basalt.png")]
 
 blocks_rect = []
 index = 0
@@ -26,7 +26,7 @@ block = None
 block_index = 0
 
 display_blocks = [] # these will be blitted in order
-background = pygame.image.load(r"C:\Users\Winston\Pictures\trueiso\background.png")
+background = pygame.image.load(r".\trueiso\background.png")
 background_rect = background.get_rect()
 
 
